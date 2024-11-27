@@ -4,22 +4,32 @@
 <head> <!-- La méchanic,le cerveau de ma page -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>PLK</title>
 </head>
 
 <body> <!--Le contenu de ma page-->
-    <header>
-        <nav>
-            <ul>
-                <li> <a href="#Bio">Bio</a></li>
-                <li><a href="#Top">Top tritres</a></li>
-                <li><a href="#Derniere">Dernières sorties</a></li>
-                <li><a href="#Albums">Albums</a></li>
-                <li><a href="#Artistes">Artistes Similaires</a></li>
-                <li><a href="#Apparait">Apparait dans</a></li>
-            </ul>
-        </nav>
-    </header>
+   <header class="header">
+    <div class="logo">
+        <a href="#">Logo</a>
+    </div>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-toggle-label">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="#Bio">Bio</a></li>
+            <li><a href="#Top">Top titres</a></li>
+            <li><a href="#Derniere">Dernières sorties</a></li>
+            <li><a href="#Albums">Albums</a></li>
+            <li><a href="#Artistes">Artistes Similaires</a></li>
+            <li><a href="#Apparait">Apparait dans</a></li>
+        </ul>
+    </nav>
+</header>
     <main>
         <section>
             <h1>PLK</h1> <!--Titre allant jusqu'a h6-->
